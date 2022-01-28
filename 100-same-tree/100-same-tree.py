@@ -11,8 +11,8 @@ class Solution:
         :type p: TreeNode
         :type q: TreeNode
         :rtype: bool
-        """    
-        # p and q are both None
+        # if p is none and q is none return true
+        """
         if not p and not q:
             return True
         # one of p and q is None
